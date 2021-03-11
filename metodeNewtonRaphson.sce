@@ -45,7 +45,7 @@ while ulangdataawal =="y" | ulangdataawal=="Y" then
     ulangdataawal=input("Apakah anda akan mengubah tebakan p0 (y/t)?","string")
 end
 
-//Mulai proses pencarian akar dengan metode bisection
+//Mulai proses pencarian akar dengan metode Newton-Raphson
 p=p0
 for i=0:maksimaliterasi
    
